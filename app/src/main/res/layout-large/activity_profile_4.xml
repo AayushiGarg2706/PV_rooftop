@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/profile_bg"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:text="Please clarify your profile to "
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:id="@+id/l1"
+            android:textStyle="bold"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="help us personalize information  "
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/l2"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text=" for you  "
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:id="@+id/l3"
+            android:textStyle="bold"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="#0072A7"
+            android:textColor="#fff"
+            android:textSize="28dp"
+            android:layout_marginTop="80dp"
+             android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="14dp"
+            android:text="What kind of information do you want to get ?"
+            android:layout_height="80dp"
+            android:id="@+id/p4q1" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/arrow"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:paddingLeft="70dp"
+                    android:text="Videos"
+                    android:layout_marginRight="20dp"
+                    android:textSize="24dp"
+                    android:id="@+id/p4a1"
+                    android:gravity="center_vertical"
+                    android:textColor="#0072A7"
+                    android:layout_height="70dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="-4dp"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="5dp"
+                    android:background="#EB881D"
+                    android:layout_height="100dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:paddingLeft="70dp"
+                    android:text="Text"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textSize="24dp"
+                    android:textColor="#0072A7"
+                    android:layout_height="72dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="-4dp"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="5dp"
+                    android:background="#EB881D"
+                    android:layout_height="100dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:paddingLeft="70dp"
+                    android:text="Etc"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:textSize="24dp"
+                    android:id="@+id/p4a3"
+                    android:textColor="#0072A7"
+                    android:layout_height="70dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="-4dp"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="5dp"
+                    android:background="#EB881D"
+                    android:layout_height="100dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/questions"
+            android:gravity="left"
+            android:layout_marginTop="-220dp"
+            android:layout_gravity="left"
+            android:theme="@style/MyRadioButtonStyle"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="13dp"
+                android:layout_gravity="left"
+                android:id="@+id/radio2"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="46dp"
+                android:layout_gravity="left"
+                android:id="@+id/radio3"
+
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="46dp"
+                android:layout_gravity="left"
+                android:id="@+id/radio4"
+
+                />
+
+
+
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:id="@+id/next4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0072A7"
+        android:text="Next"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

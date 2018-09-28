@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cif__delhi_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bg"
+    tools:context="com.logischtech.pv_rooftop.CIF_Delhi_form"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Consumer Interest Form"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:hint="Name"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textEmailAddress"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            />
+.
+        <EditText
+
+            android:layout_width="match_parent"
+            android:hint="Email"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textEmailAddress"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:hint="Mobile Number"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="120dp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:ellipsize="start"
+                android:inputType="textShortMessage|textEmailAddress"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:hint="Pin Code"
+                android:textSize="16dp"
+                android:layout_marginLeft="-110dp"
+                android:layout_marginRight="10dp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:ellipsize="start"
+                android:inputType="textShortMessage|textEmailAddress"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/pin"
+                />
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:hint="Discom"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textEmailAddress"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/cc"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:hint="Consumer Category"
+            android:textSize="16dp"
+
+
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="left"
+            android:layout_marginTop="-10dp"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textEmailAddress"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/contumer"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:orientation="horizontal">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:hint="Total roof area"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="100dp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:ellipsize="start"
+                android:inputType="textShortMessage|textEmailAddress"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/tra"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:hint="Toatl"
+                android:textSize="16dp"
+                android:layout_marginLeft="-130dp"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:ellipsize="start"
+                android:inputType="textShortMessage|textEmailAddress"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/tsf"
+                />
+
+
+        </LinearLayout>
+        <EditText
+
+            android:layout_width="match_parent"
+            android:hint="Capcha"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textEmailAddress"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/captcha"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9933"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

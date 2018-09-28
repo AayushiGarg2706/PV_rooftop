@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile_2"
+    android:layout_width="match_parent"
+    android:background="@drawable/profile_gradiant_bg2"
+
+    android:layout_height="wrap_content"
+    tools:context="com.logischtech.pv_rooftop.Profile_2"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/top_banner_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Please clarify your profile to "
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/l1"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="help us personalize information  "
+            android:gravity="center_horizontal"
+            android:id="@+id/l2"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text=" for you  "
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:id="@+id/l3"
+            android:textStyle="bold"
+            android:textColor="#3E4040"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="#0072A7"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="Why are you interested in solar?"
+                android:layout_height="55dp"
+                android:id="@+id/p2q1" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/traingle_blue"
+                android:layout_height="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Curious about the technology"
+                            android:layout_marginRight="20dp"
+                            android:textSize="15dp"
+                            android:id="@+id/p2a1"
+                            android:gravity="center_vertical"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to know about financing"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:textSize="15dp"
+                            android:id="@+id/p2a2"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to know about profitability"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:textSize="15dp"
+                            android:id="@+id/p2a3"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to select the best installer"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/p2a4"
+                            android:textSize="15dp"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to learn how to select the best PV  "
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:textSize="15dp"
+                            android:id="@+id/p2a5"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to install"
+                            android:layout_marginRight="20dp"
+                            android:textSize="15dp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/p2a6"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Want to learn about finance"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/p2a7"
+                            android:textSize="15dp"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Others"
+                            android:layout_marginRight="20dp"
+                            android:textSize="15dp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/p2a8"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="45dp"
+                            android:text="Do you want to contact "
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/p2a9"
+                            android:textSize="15dp"
+                            android:textColor="#0072A7"
+                            android:layout_height="52dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-4dp"
+
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_gravity="center"
+                            android:background="#EB881D"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/questions"
+                    android:gravity="left"
+                    android:layout_marginTop="-525dp"
+                    android:layout_gravity="left"
+                    android:theme="@style/MyRadioButtonStyle"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:layout_marginTop="11dp"
+                        android:checked="true"
+                        android:gravity="left"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio1"
+
+                        />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:scaleY="0.8"
+
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio2"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio3"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio4"
+
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio5"
+
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+
+
+                        android:gravity="left"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio6"
+
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio7"
+
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio8"
+
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:gravity="left"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="27dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/radio9"
+
+                        />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="80dp"
+            android:textSize="16dp"
+            android:layout_gravity="end"
+            android:id="@+id/next2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="0dp"
+            android:textColor="#fff"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="10dp"
+            android:background="#0072A7"
+            android:text="Next"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/profile_bg"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="0dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:id="@+id/faq_title"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1. What is Solar Roof Top Sysytem? "
+                    android:textColor="#696968"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/iconprofile"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/faq_author"
+                        android:text = "author"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:src="@drawable/clock"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/faq_date"
+                        android:text = "date"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:textSize="14dp"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginLeft="13dp"
+                    android:id="@+id/faq_content"
+                    android:text="In a solar roof top sysytem,the solar panels are installed in the roof of any ...."
+                    android:textColor="#878786"
+                    android:layout_height="wrap_content" />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text = "Tags :"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/faq_tags"
+                        android:text = ""
+                        android:textColor="#006DC3"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

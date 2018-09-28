@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_using_tags"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_tag_bg"
+    tools:context="com.logischtech.pv_rooftop.SearchUsingTags">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp"
+                android:id="@+id/search_main"
+                android:layout_height="wrap_content">
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:gravity="left"
+                    android:background="@drawable/corner_white"
+                    android:hint="Search what you are looking for?"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="55dp"
+                    android:paddingLeft="15dp"
+                    android:text=""
+                    android:maxLines="1"
+                    android:id="@+id/ev_search1"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="11dp"
+                    android:textSize="14dp"
+                    android:paddingTop="11dp"
+                    android:layout_height="wrap_content" />
+
+
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/search"
+                    android:id="@+id/search1"
+                    android:paddingBottom="0dp"
+                    android:background="@drawable/corner_blue"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="-58dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="FILTER POSTS USING TAGS"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:id="@+id/tv_tags"
+                android:layout_marginLeft="19dp"
+                android:layout_below="@+id/search_main"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/tv_tags"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag1"
+                        android:textColor="#006B9C"
+                        android:text="India"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag2"
+                        android:text="solar"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag3"
+                        android:text="rooftop"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="0dp"
+                        android:id="@+id/tag4"
+                        android:text="activities"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Technology"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/tag6"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="plant"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:layout_marginLeft="0dp"
+                        android:id="@+id/tag7"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Inverter"
+                        android:textColor="#006B9C"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag8"
+                        android:text= "General Customer"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag9"
+                        android:text= "GED"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag25"
+                        android:textColor="#006B9C"
+                        android:text= "Dispute"
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag26"
+                        android:textColor="#006B9C"
+                        android:text= "contract"
+                        android:paddingRight="7dp"
+                        android:paddingLeft="7dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag27"
+                        android:textColor="#006B9C"
+                        android:text= "Owner"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag10"
+                        android:text= "Global"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag11"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "operation"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag12"
+                        android:textColor="#006B9C"
+                        android:text= "GEDA"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag13"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "maintenance"
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag14"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "process"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag15"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "flow"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag16"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "clearance"
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag17"
+                        android:textColor="#006B9C"
+                        android:text= "Goa"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag18"
+                        android:textColor="#006B9C"
+                        android:text= "portal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag19"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "Process flow"
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag20"
+                        android:textColor="#006B9C"
+                        android:text= "SWCP"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag21"
+                        android:textColor="#006B9C"
+                        android:text= "single"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag22"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#006B9C"
+                        android:text= "gross metering"
+                        android:layout_marginLeft="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag23"
+                        android:textColor="#006B9C"
+                        android:text= "net metering"
+                        android:paddingRight="7dp"
+                        android:paddingLeft="7dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/button_round"
+                        android:id="@+id/tag24"
+                        android:textColor="#006B9C"
+                        android:text= "MPPT"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
